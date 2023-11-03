@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "313737882209",
+    "project_id": "flutter-facebook-e760f",
+    "storage_bucket": "flutter-facebook-e760f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313737882209:android:9e453c25d091e3687d1820",
+        "android_client_info": {
+          "package_name": "com.example.flutter_facebook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCikaUzFBe0rSbePr5_gWWX2vL9q605dkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
