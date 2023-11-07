@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook/core/constants/app_colors.dart';
 import 'package:flutter_facebook/core/constants/constants.dart';
-import 'package:flutter_facebook/features/auth/presentation/gender_radio_tile.dart';
+import 'package:flutter_facebook/features/auth/presentation/widgets/gender_radio_tile.dart';
 
 class GenderPicker extends StatelessWidget {
   const GenderPicker(
@@ -20,13 +20,13 @@ class GenderPicker extends StatelessWidget {
       child: Column(
         children: [
           GenderRadioTile(
-            title: 'Mail',
+            title: 'Male',
             value: 'male',
             selectedValue: gender,
             onChanged: onChanged,
           ),
           GenderRadioTile(
-            title: 'FMail',
+            title: 'Fmale',
             value: 'fmale',
             selectedValue: gender,
             onChanged: onChanged,
